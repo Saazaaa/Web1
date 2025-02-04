@@ -1,0 +1,113 @@
+body{
+    background: rgb(3,70,148); /* Sets a solid Chelsea blue background color */
+background: linear-gradient(90deg, rgba(3,70,148,1) 0%, rgba(1,62,133,1) 25%, rgba(0,48,103,1) 50%, rgba(1,62,133,1) 75%, rgba(3,70,148,1) 100%);
+ /* Adds a gradient background transitioning through various shades of blue horizontally */
+}
+
+.anthem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lyrics {
+  display: flex;
+  align-items: center; /* Vertically centers the images and text */
+  justify-content: center; /* Centers the entire content horizontally */
+  position: relative;
+  width: 100%;
+}
+
+.side-image {
+  position: absolute;
+  width: 50px; /* Adjust the size of the images */
+  height: 50px;
+  background-size: cover; /* Ensures the images fill the div properly */
+}
+
+#left-div1 {
+  left: 0;
+  background-image: url('path/to/left-image.jpg'); /* Your left image */
+}
+
+#right-div2 {
+  right: 0;
+  background-image: url('path/to/right-image.jpg'); /* Your right image */
+}
+
+.anthem-text {
+  display: flex;
+  flex-direction: column; /* Stack the lyrics vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 10px; /* Space between title and lyrics */
+}
+
+h2, h3 {
+  margin: 0;
+  display: inline; /* Ensures all headings stay in line */
+  padding: 5px; /* Optional: space between lines */
+}
+
+h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(3, 70, 148); /* Sets the background color to Chelsea blue */
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    background-color: rgb(3, 70, 148); 
+    padding: 10px; 
+    box-sizing: border-box; 
+  }
+  
+  .flex-item {
+    flex: 1 1 auto; 
+    text-align: center; 
+    font-size: 25px; 
+    padding: 10px; 
+    color: rgb(255, 255, 255); 
+    background-color: rgb(0, 217, 255);
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 5px; 
+    margin: 5px; 
+    box-sizing: border-box; 
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: red;
+    border: solid 1px black;
+  }
+
+  #left-div1 {
+    height: 345px;
+    border: solid 5px black;
+    width: 1050px;
+    background-image: url(nike-chelsea-2.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #right-div2 {
+    height: 345px;
+    border: solid 5px black;
+    width: 1050px;
+    background-image: url(nike-chelsea.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
